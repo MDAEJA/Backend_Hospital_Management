@@ -1,7 +1,7 @@
 // logic of user 
 
 const userModel = require("../model/user");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 const doctorModel = require("../model/doctor");
