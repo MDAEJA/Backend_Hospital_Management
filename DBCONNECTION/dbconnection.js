@@ -3,7 +3,9 @@
 const mongoose = require("mongoose")
 
 const dbConnection = ()=>{
-   mongoose.connect("mongodb://localhost:27017/Hospital_Management")
+   //mongodb+srv://mdaejazahmed6692:aejaz@hospitalapp.lhpddiz.mongodb.net/
+   //mongodb+srv://mdaejazahmed6692:<password>@hospitalapp.lhpddiz.mongodb.net/
+   mongoose.connect("mongodb+srv://mdaejazahmed6692:aejaz@hospitalapp.lhpddiz.mongodb.net/")
    .then(()=>{
     console.log("SERVER IS CONNECTED WITH DB")
    })
